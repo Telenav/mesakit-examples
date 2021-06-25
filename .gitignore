@@ -21,3 +21,4 @@
 **/.gradle/
 **/*.class
 **/*.hprof
+**/build.properties
