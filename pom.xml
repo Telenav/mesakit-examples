@@ -171,7 +171,7 @@
 
         <java.version>11</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jakarta.activation.version>1.2.2</jakarta.activation.version>
+        <jakarta.activation.version>2.0.0</jakarta.activation.version>
         <java-mail.version>1.6.2</java-mail.version>
 
         <!-- Protocols -->
@@ -218,13 +218,13 @@
         <!-- Web -->
 
         <jersey.version>2.33</jersey.version>
-        <swagger.version>2.1.6</swagger.version>
-        <httpclient.version>4.5.12</httpclient.version>
+        <swagger.version>2.1.10</swagger.version>
+        <httpclient.version>4.5.13</httpclient.version>
 
         <!-- XML -->
 
         <jaxb.version>2.3.1</jaxb.version>
-        <jackson.version>2.12.2</jackson.version>
+        <jackson.version>2.12.3</jackson.version>
         <xerces.version>2.11.0</xerces.version>
 
     </properties>
@@ -355,6 +355,27 @@
 
         <plugins>
 
+            <!-- Dependencies -->
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <id>enforce</id>
+                        <configuration>
+                            <rules>
+                                <dependencyConvergence/>
+                            </rules>
+                        </configuration>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
             <!-- Build Metadata -->
 
             <plugin>
@@ -386,8 +407,7 @@
                                     <equals arg1 = "${source.exists}" arg2 = "true"/>
                                     <then>
                                         <echo file = "src/main/java/project.properties">
-                                            project-name = ${project.name}${line.separator}project-version = ${project.version}${line.separator}project-group-id =
-                                            ${project.groupId}${line.separator}project-artifact-id = ${project.artifactId}
+                                            project-name = ${project.name}${line.separator}project-version = ${project.version}${line.separator}project-group-id = ${project.groupId}${line.separator}project-artifact-id = ${project.artifactId}
                                         </echo>
                                         <java jar = "${cactus.jar}" failonerror = "true" fork = "true">
                                             <arg value = "src/main/java"/>
@@ -395,8 +415,7 @@
                                     </then>
                                     <else>
                                         <echo file = "${project.basedir}/project.properties">
-                                            project-name = ${project.name}${line.separator}project-version = ${project.version}${line.separator}project-group-id =
-                                            ${project.groupId}${line.separator}project-artifact-id = ${project.artifactId}
+                                            project-name = ${project.name}${line.separator}project-version = ${project.version}${line.separator}project-group-id = ${project.groupId}${line.separator}project-artifact-id = ${project.artifactId}
                                         </echo>
                                         <java jar = "${cactus.jar}" failonerror = "true" fork = "true">
                                             <arg value = "${project.basedir}"/>
