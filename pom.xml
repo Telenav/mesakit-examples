@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<!--  -->
-<!-- © 2011-2022 Telenav, Inc. -->
-<!-- Licensed under Apache License, Version 2.0 -->
-<!--  -->
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<!-- suppress MavenModelInspection -->
-
+<!--
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// © 2011-2022 Telenav, Inc.
+// Licensed under Apache License, Version 2.0
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
 <project
      xmlns="http://maven.apache.org/POM/4.0.0"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -15,18 +15,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.telenav.mesakit</groupId>
-        <artifactId>mesakit</artifactId>
-        <version>0.9.13</version>
+        <groupId>com.telenav</groupId>
+        <artifactId>telenav-superpom-project-family</artifactId>
+        <version>2.0.0</version>
         <relativePath/>
     </parent>
 
+    <groupId>com.telenav.mesakit</groupId>
     <artifactId>mesakit-examples</artifactId>
+    <version>0.9.14</version>
 
     <packaging>pom</packaging>
-
-    <!-- Project -->
-
     <description>Example code that demonstrates how to use MesaKit</description>
 
     <!-- Licensing -->
@@ -52,6 +51,8 @@
         <developerConnection>scm:git:https://Telenav/mesakit-examples.git</developerConnection>
         <url>https://Telenav/mesakit.git</url>
     </scm>
+
+    <!-- Project -->
 
     <url>https://www.mesakit.org</url>
 
@@ -92,6 +93,20 @@
             <id>haifeng</id>
             <name>Haifeng Zhu</name>
             <email>hfzhu@telenav.com</email>
+            <organization>Telenav</organization>
+            <organizationUrl>https://www.telenav.com/</organizationUrl>
+            <roles>
+                <role>developer</role>
+                <role>administrator</role>
+            </roles>
+
+        </developer>
+
+        <developer>
+
+            <id>timboudreau</id>
+            <name>Tim Boudreau</name>
+            <email>tim@timboudreau.com</email>
             <organization>Telenav</organization>
             <organizationUrl>https://www.telenav.com/</organizationUrl>
             <roles>
