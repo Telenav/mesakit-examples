@@ -4,7 +4,7 @@
 
 [//]: # (end-user-text)
 
-# mesakit-examples &nbsp;&nbsp; <img src="https://telenav.github.io/telenav-assets/images/icons//gears-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons//gears-32-2x.png 2x"/>
+# mesakit-examples &nbsp;&nbsp; <img src="https://telenav.github.io/telenav-assets/images/icons/gears-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons/gears-32-2x.png 2x"/>
 
 This module contains examples of how to use MesaKit
 
@@ -17,11 +17,11 @@ This module contains examples of how to use MesaKit
 [**About MesaKit**](#about)  
 [**Example Code**](https://github.com/Telenav/mesakit-examples)  
 [**Published Releases**](https://repo1.maven.org/maven2/com/telenav/mesakit/)  
-[**How to Build This Project**](https://github.com/Telenav/telenav-build/blob/develop/documentation/building.md) <!-- [branch-name] -->   
+[**How to Build This Project**](https://github.com/Telenav/telenav-build/blob/develop/documentation/building.md) <!-- [branch-name] -->
 
 [//]: # (end-user-text)
 
-### Projects <a name = "projects"></a> &nbsp; <img src="https://telenav.github.io/telenav-assets/images/icons/gears-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons/gears-32-2x.png 2x"/>
+### Sub-Projects <a name = "projects"></a> &nbsp; <img src="https://telenav.github.io/telenav-assets/images/icons/diagram-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons/diagram-32-2x.png 2x"/>
 
 [**mesakit-map-examples**](mesakit-map-examples/README.md)  
 
@@ -29,7 +29,7 @@ This module contains examples of how to use MesaKit
 
 ### Javadoc Coverage <a name = "javadoc-coverage"></a> &nbsp; <img src="https://telenav.github.io/telenav-assets/images/icons/bargraph-24.png" srcset="https://telenav.github.io/telenav-assets/images/icons/bargraph-24-2x.png 2x"/>
 
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter/meter-50-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/meters/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/meters/meter-50-96-2x.png 2x"/>
  &nbsp; &nbsp; [**mesakit-map-examples**](mesakit-map-examples/README.md)
 
 [//]: # (start-user-text)
