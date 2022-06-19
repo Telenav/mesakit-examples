@@ -17,7 +17,7 @@ This module contains examples of how to use MesaKit
 [**About MesaKit**](#about)  
 [**Example Code**](https://github.com/Telenav/mesakit-examples)  
 [**Published Releases**](https://repo1.maven.org/maven2/com/telenav/mesakit/)  
-[**How to Build This Project**](https://github.com/Telenav/telenav-build/blob/master/documentation/building.md) <!-- [branch-name] -->
+[**How to Build This Project**](https://github.com/Telenav/telenav-build/blob/release/current/documentation/building.md) <!-- [branch-name] -->
 
 [//]: # (end-user-text)
 
