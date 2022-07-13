@@ -4,7 +4,7 @@
 
 [//]: # (end-user-text)
 
-# mesakit-examples &nbsp;&nbsp; <img src="https://telenav.github.io/telenav-assets/images/icons/gears-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons/gears-32-2x.png 2x"/>
+# mesakit-examples &nbsp;&nbsp; <img src="https://telenav.github.io/telenav-assets/images/images/icons/gears-32.png" srcset="https://telenav.github.io/telenav-assets/images/images/icons/gears-32-2x.png 2x"/>
 
 This module contains examples of how to use MesaKit
 
