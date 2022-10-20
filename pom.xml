@@ -23,7 +23,7 @@
 
     <groupId>com.telenav.mesakit</groupId>
     <artifactId>mesakit-examples</artifactId>
-    <version>0.9.18</version>
+    <version>0.9.19</version>
 
     <packaging>pom</packaging>
     <description>Example code that demonstrates how to use MesaKit</description>
