@@ -8,25 +8,50 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 <project
-     xmlns="http://maven.apache.org/POM/4.0.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>com.telenav</groupId>
-        <artifactId>telenav-superpom-project-family</artifactId>
-        <version>2.0.4</version>
+        <artifactId>telenav-root-superpom</artifactId>
+        <version>1.0.4</version>
         <relativePath/>
     </parent>
 
     <groupId>com.telenav.mesakit</groupId>
-    <artifactId>mesakit-examples</artifactId>
-    <version>0.9.18</version>
+    <artifactId>mesakit-examples-parent</artifactId>
+    <version>0.9.19</version>
 
     <packaging>pom</packaging>
     <description>Example code that demonstrates how to use MesaKit</description>
+
+    <properties>
+        <kivakit.version>1.8.2</kivakit.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- Dependencies on modules defined in Mesakit -->
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>mesakit</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- Pull in libraries defined in Kivakit -->
+            <dependency>
+                <groupId>com.telenav.kivakit</groupId>
+                <artifactId>kivakit</artifactId>
+                <version>${kivakit.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <!-- Licensing -->
 
@@ -47,8 +72,8 @@
     <!-- Source Code -->
 
     <scm>
-        <connection>scm:git:https://Telenav/mesakit-examples.git</connection>
-        <developerConnection>scm:git:https://Telenav/mesakit-examples.git</developerConnection>
+        <connection>scm:git:https://github.com/Telenav/mesakit-examples.git</connection>
+        <developerConnection>scm:git:https://github.com/Telenav/mesakit-examples.git</developerConnection>
         <url>https://Telenav/mesakit.git</url>
     </scm>
 
