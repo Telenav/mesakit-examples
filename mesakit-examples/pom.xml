@@ -10,6 +10,13 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.telenav</groupId>
+        <artifactId>telenav-root-superpom</artifactId>
+        <version>1.0.3</version>
+        <relativePath/>
+    </parent>
+
     <groupId>com.telenav.mesakit</groupId>
     <artifactId>mesakit-examples</artifactId>
     <version>0.9.19</version>
@@ -19,7 +26,7 @@
     <name>Mesakit Examples</name>
     <description>Bill Of Meterials for Mesakit Examples.
         Import this pom as a pom-type, import scope dependency in your dependencyManagement
-         section to depend on a consistent set of versions of mesakit-examples.</description>
+        section to depend on a consistent set of versions of mesakit-examples.</description>
 
     <dependencyManagement>
         <dependencies>
