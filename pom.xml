@@ -67,7 +67,8 @@
 
     <modules>
         <module>mesakit-map-examples</module>
-    </modules>
+    
+        <module>mesakit-examples</module></modules>
 
     <!-- Source Code -->
 
