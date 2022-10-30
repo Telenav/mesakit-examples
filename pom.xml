@@ -17,7 +17,7 @@
     <parent>
         <groupId>com.telenav</groupId>
         <artifactId>telenav-root-superpom</artifactId>
-        <version>1.0.4</version>
+        <version>1.0.7</version>
         <relativePath/>
     </parent>
 
@@ -66,8 +66,9 @@
     <!-- Modules -->
 
     <modules>
-        <module>mesakit-map-examples</module>
-    </modules>
+        <module>mesakit-examples</module>
+    
+        <module>mesakit-map-examples</module></modules>
 
     <!-- Source Code -->
 
