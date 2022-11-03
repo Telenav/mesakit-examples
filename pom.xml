@@ -29,7 +29,7 @@
     <description>Example code that demonstrates how to use MesaKit</description>
 
     <properties>
-        <kivakit.version>1.8.2</kivakit.version>
+        <kivakit.version>1.8.3</kivakit.version>
     </properties>
 
     <dependencyManagement>
