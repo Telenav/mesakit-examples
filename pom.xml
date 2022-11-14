@@ -16,7 +16,7 @@
 
     <groupId>com.telenav.mesakit</groupId>
     <artifactId>mesakit-examples-parent</artifactId>
-    <version>0.9.21</version>
+    <version>0.9.22</version>
 
     <packaging>pom</packaging>
 
@@ -350,7 +350,7 @@
                     <nohelp>true</nohelp>
                     <additionalOptions>-notimestamp</additionalOptions>
                     <!--suppress CheckTagEmptyBody -->
-                    <destDir></destDir>
+                    <destDir/>
                     <sourceFileIncludes>
                         <sourceFileInclude>**/*.java</sourceFileInclude>
                     </sourceFileIncludes>
