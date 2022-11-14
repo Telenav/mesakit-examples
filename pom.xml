@@ -57,7 +57,7 @@
         <!-- Project -->
 
         <repository.group.name>mesakit</repository.group.name>
-        <repository.name>mesakit</repository.name>
+        <repository.name>mesakit-examples</repository.name>
 
         <!-- Tools -->
 
