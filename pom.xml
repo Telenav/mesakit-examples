@@ -525,6 +525,7 @@
                                     <arguments>
                                         <argument>-jar</argument>
                                         <argument>${documentation.lexakai.downloads.folder}/lexakai-application-${lexakai.version}.jar</argument>
+                                        <argument>-quiet=true</argument>
                                         <argument>-update-readme=true</argument>
                                         <argument>-output-folder=${documentation.lexakai.folder}</argument>
                                         <!--suppress UnresolvedMavenProperty -->
